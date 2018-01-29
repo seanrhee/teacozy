@@ -1,0 +1,128 @@
+html{
+  background-color: black;
+  font-family: Helvetica;
+  font-size: 22px;
+  color: Seashell;
+  opacity: 0.9;
+  text-align: center;
+}
+
+a{
+  color: seashell;
+  text-decoration: underline;
+}
+
+/*header style start*/
+.header{
+  display: flex;
+  width: 100%;
+  height: 69px;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid seashell;
+  padding: 10px 10px 10px 10px;
+  box-sizing: border-box;
+  position: fixed;
+  z-index: 20;
+  background-color: black;
+}
+
+.header img{
+  height: 50px;
+}
+
+.logo{
+  display:flex;
+  align-items: flex-start;
+}
+
+.nav{
+  display: flex;
+  justify-content: space-around;
+  padding-bottom: 5px;
+}
+
+.nav span{
+  margin: 10px;
+}
+/*header style end*/
+
+/*moving page content down 69px*/
+.pagecontent{
+  padding-top: 69px;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: space-around;
+}
+
+/*mission style start*/
+.mission{
+  width: 1200px;
+  height: 700px;
+  display: flex;
+  background-image: url(../img/img-mission-background.jpg);
+  justify-content: space-around;
+  align-items: center;
+  margin: 0px 0px 10px 0px;
+}
+
+.textbox{
+  width: 1200px;
+  background-color: black;
+  align-items: center;
+}
+/*mission style end*/
+
+/*totm style start*/
+.totm{
+  margin: 10px 0px 10px 0px;
+  width: 1000px;
+}
+.container{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+}
+.box img{
+  width: 300px;
+  height: 200px;
+}
+.box h4{
+  margin-top: 10px;
+}
+.box{
+  background-color: black;
+}
+/*totm style end*/
+
+/*locations style start*/
+.locations{
+  width: 1200px;
+  height: 500px;
+  background-image: url(../img/img-locations-background.jpg);
+  margin: 10px 0px 10px 0px;
+  padding-top: 50px;
+}
+.locacontainer{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.locabox{
+  background-color: black;
+  width: 300px;
+}
+/*locations style end*/
+
+/*footer style start*/
+.footer{
+  height: 200px;
+  width: 100%;
+}
+.copyright h5{
+  padding-left: 20px;
+  text-align: left;
+}
+/*footer style end*/
