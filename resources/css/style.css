@@ -7,6 +7,10 @@ html{
   text-align: center;
 }
 
+body {
+ margin: 0;
+}
+
 a{
   color: seashell;
   text-decoration: underline;
@@ -52,7 +56,7 @@ a{
   padding-top: 69px;
   display: flex;
   flex-direction: column;
-  align-content: center;
+  align-items: center;
   justify-content: space-around;
 }
 
@@ -120,6 +124,9 @@ a{
 .footer{
   height: 200px;
   width: 100%;
+}
+.copyright{
+  align-self: end;
 }
 .copyright h5{
   padding-left: 20px;
