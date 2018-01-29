@@ -68,7 +68,6 @@ a{
   background-image: url(../img/img-mission-background.jpg);
   justify-content: space-around;
   align-items: center;
-  margin: 0px 0px 10px 0px;
 }
 
 .textbox{
@@ -80,8 +79,11 @@ a{
 
 /*totm style start*/
 .totm{
-  margin: 10px 0px 10px 0px;
   width: 1000px;
+  margin: 10px 0px 10px 0px;
+}
+.totm h2{
+  margin-top: 69px;
 }
 .container{
   display: flex;
@@ -106,8 +108,7 @@ a{
   width: 1200px;
   height: 500px;
   background-image: url(../img/img-locations-background.jpg);
-  margin: 10px 0px 10px 0px;
-  padding-top: 50px;
+  margin: 69px 0px 10px 0px;
 }
 .locacontainer{
   display: flex;
